@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 120px 80px 120px;
+}
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 10px;
+}
+.bottomHeader {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    flex: 1;
+    min-height: 100vh;
+}
+.footer {
+    align-content: flex-end;
+    background-color: #1F2937;
+    color: white;
+
+}
