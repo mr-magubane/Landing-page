@@ -49,8 +49,14 @@ ul {
     flex: 1;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    background-color: #1F2937;
+    border-radius: 8px;
 }
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+} 
 .bottomHeader .left {
     flex: 1;
     padding: 0 52px 0 0;
@@ -77,6 +83,7 @@ ul {
 .content {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .info {
     display: flex;
@@ -127,6 +134,10 @@ ul {
     width: 700px;
     text-align: right;
     font-weight: bold;
+}
+.action-content {
+    display: flex;
+    justify-content: center;
 }
 .action-block {
     display: flex;
